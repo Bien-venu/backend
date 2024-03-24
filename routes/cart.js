@@ -12,6 +12,7 @@ router.post("/cart", async (req, res) => {
     price,
     category,
     userId,
+    userEmail,
     quantity,
     productId
   } = req.body; 
@@ -27,6 +28,7 @@ router.post("/cart", async (req, res) => {
     price,
     category,
     userId,
+    userEmail,
     quantity,
     productId
     });

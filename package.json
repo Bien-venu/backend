@@ -20,10 +20,10 @@
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "build": "node app.js"
+    "start": "node index.js",
+    "build": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
